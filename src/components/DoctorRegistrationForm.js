@@ -59,7 +59,7 @@ const DoctorRegistrationForm = () => {
     <form className={styles.form} onSubmit={handleSubmit} encType="multipart/form-data">
       {/* Rest of your form JSX remains the same */}
       <div className={styles.formHeader}>
-        <h2 className={styles.title}>Doctor's Registration</h2>
+        <h2 className={styles.title}>Doctors Registration</h2>
         <p className={styles.subtitle}>Join our network of healthcare professionals</p>
       </div>
 
