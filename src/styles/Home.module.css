@@ -1,0 +1,39 @@
+/* styles/Home.module.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the container takes full screen height */
+}
+
+.mainContent {
+  display: flex; /* Create a side-by-side layout with Sidebar and MainContent */
+  flex: 1;
+  padding: 20px;
+}
+
+.content {
+  margin-left: 270px; /* Leave space for the sidebar */
+  width: 100%; /* The content section will take up the remaining width */
+  padding: 20px;
+}
+
+.heading {
+  color: #333;
+  font-size: 2rem;
+}
+
+.paragraph {
+  color: #555;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .mainContent {
+    flex-direction: column; /* Stack Sidebar and MainContent on smaller screens */
+  }
+
+  .content {
+    margin-left: 0; /* Remove left margin for mobile layout */
+  }
+}

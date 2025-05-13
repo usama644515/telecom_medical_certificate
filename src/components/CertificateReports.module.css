@@ -1,0 +1,145 @@
+.container {
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.filterSection {
+  background: #eef3fe;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.formRow {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 200px;
+}
+
+.formGroup label {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.formGroup input,
+.formGroup select {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  transition: 0.2s;
+}
+
+.formGroup input:hover,
+.formGroup select:hover {
+  border-color: #0070f3;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+.filterBtn,
+.resetBtn {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.filterBtn {
+  background: #0070f3;
+  color: white;
+}
+
+.filterBtn:hover {
+  background: #0056c1;
+}
+
+.resetBtn {
+  background: #ccc;
+}
+
+.resetBtn:hover {
+  background: #999;
+}
+
+.tableContainer {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table th,
+.table td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.table tr:hover {
+  background-color: #f5faff;
+}
+
+.link {
+  color: #0070f3;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.eye {
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.pagination {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.pageBtn {
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #0070f3;
+  background: white;
+  color: #0070f3;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.pageBtn:hover {
+  background: #0070f3;
+  color: white;
+}
